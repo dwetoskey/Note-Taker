@@ -1,0 +1,23 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "Week 11 Boot Camp Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwetoskey/Note-Taker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwetoskey/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/dwetoskey/Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
