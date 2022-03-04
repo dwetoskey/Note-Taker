@@ -2,6 +2,8 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3001;
 const notes = require("./db/db.json");
+const apiRoutes = require('./routes/apiRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 
 
 app.use(express.static('public'));
@@ -10,23 +12,10 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(express.json());
 
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, "/public/index.html"));
-});
+app.use('/api', apiRoutes);
 
-app.get("/notes", function (req, res) {
-  res.sendFile(path.join(__dirname, "/public/notes.html"));
-});
-
-app.route("/api/notes")
-  .get
-
-
-
-app.get("/public/notes", (req, res) => {
-  res.json(notes);
-});
+app.use('/', htmlRoutes);
 
 app.listen(PORT, () => {
-  console.log("App running on PORT " + PORT);
+  console.log(`Server now listening on port ${PORT}.`);
 });

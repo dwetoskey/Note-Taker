@@ -1,6 +1,19 @@
-[
+{
+  "notes": [
     {
-        "title":"Cauliflower and Cabbage Recipe",
-        "text":"Combine chopped cabbage and cauliflower into a heated frying pan coated with olive oil. Add butter and desired seasoning. Fry until tender. Enjoy! "
+      "id": "1",
+      "title": "Cauliflower and Cabbage Recipe",
+      "text": "Combine chopped cabbage and cauliflower into a heated frying pan coated with olive oil. Add butter and desired seasoning. Fry until tender. Enjoy! "
+    },
+    {
+      "id": "2",
+      "title": "Class Tonight",
+      "text": "Office hours start at 6:30, class from 7pm - 9pm."
+    },
+    {
+      "title": "Weather",
+      "text": "Check weather",
+      "id": "2"
     }
-]
+  ]
+}
