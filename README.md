@@ -10,7 +10,7 @@
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
-  * [Screen Shot](#screen shot)
+  * [Screen-Shot](#screen shot)
   * [Link](#link)
   
   ## Installation 
