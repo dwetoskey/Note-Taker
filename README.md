@@ -10,7 +10,7 @@
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
-  * [Screen%20Shot](#screen%20shot)
+  * [Screen-Shot](#screen-shot)
   * [Link](#link)
   
   ## Installation 
@@ -25,7 +25,7 @@
   npm test
   ## Questions
   If you have any questions about this projects, please contact me directly at dwetoskey224@gmail.com. You can view more of my projects at https://github.com/dwetoskey.
-  ## Screen Shot
+  ## Screen-Shot
   ![image](https://user-images.githubusercontent.com/93551304/158839238-e473806b-1cb8-43eb-8101-23fb5bdcdfa8.png)
   ## Link
   https://salty-inlet-39770.herokuapp.com/
