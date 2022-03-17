@@ -1,2 +1,25 @@
 # Note-Taker
-Week 11 Boot Camp Challenge
+  ![Github licence](https://img.shields.io/badge/No License-License-blue)
+  
+  ## Description 
+  Allows you to save notes locally.
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  
+  ## Installation 
+  No installation necessary, just go to the deployed site https://salty-inlet-39770.herokuapp.com/.
+  ## Usage 
+  Go to https://salty-inlet-39770.herokuapp.com/
+  ## License 
+  This project is licensed under No License
+  ## Contributing 
+  No Contributions
+  ## Tests
+  npm test
+  ## Questions
+  If you have any questions about this projects, please contact me directly at dwetoskey224@gmail.com. You can view more of my projects at https://github.com/dwetoskey.
