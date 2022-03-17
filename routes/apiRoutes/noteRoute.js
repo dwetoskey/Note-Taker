@@ -15,11 +15,12 @@ router.post('/notes', (req, res) => {
     res.json(newNote);
 });
 
-router.delete("/api/notes/:id", function(req, res) {
-    notes.splice(req.params.id, 1);
-    updateDb();
-    console.log("Deleted note with id "+req.params.id);
-});
+// router.delete("/api/notes/:id", function(req, res) {
+//     req
+//     notes.splice(req.params.id, 1);
+//     updateDb();
+//     console.log("Deleted note with id "+req.params.id);
+// });
 
 
 
